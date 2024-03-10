@@ -33,7 +33,7 @@ def input_image_setup(uploaded_file):
         raise FileNotFoundError("No File uploaded")
 
 st.set_page_config(page_title="Gemini Image Demo")
-st.header("Gemini application")
+st.header("Multi Language Invoice Extractor")
 input=st.text_input("Input Prompt: ",key="input")
 uploaded_file=st.file_uploader("Choose an image...",type=['jpg','jpeg','png','webp'])
 image=""
